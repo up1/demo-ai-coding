@@ -1,8 +1,8 @@
 # Create REST API with nodejs 24, express library
 * Product catalog system
 
-## List of APIs
-1. Get product by id
+# List of APIs
+## 1. Get product by id
 * id = number only
 ```
 GET /product/:id
