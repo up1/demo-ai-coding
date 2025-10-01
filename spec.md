@@ -3,32 +3,39 @@
 
 ## List of APIs
 1. Get product by id
-id = number only
-
+* id = number only
+``
 GET /product/:id
+```
 
-Success case 
-GET /product/1
-response code = 200
+### Success case 
+* GET /product/1
+* response code = 200
+```
 {
     "id": 1,
     "product_name": "Product 01",
     "price": 100.50
 }
+```
 
-Product not found
-GET /product/2
-response code = 404
+### Product not found
+* GET /product/2
+* response code = 404
+```
 {
     "message": "Product id=2 not found in system"
 }
+```
 
-Error
-GET /product/3
-response code = 500
+### Error
+* GET /product/3
+* response code = 500
+```
 {
     "message": "System Error"
 }
+```
 
 ## Project structure of API with NodeJs and Express library
 * Flow of code
