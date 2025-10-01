@@ -4,7 +4,7 @@
 ## List of APIs
 1. Get product by id
 * id = number only
-``
+```
 GET /product/:id
 ```
 
